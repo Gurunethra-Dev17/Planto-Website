@@ -1,0 +1,122 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+    color:white;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    padding:20px 40px;
+}
+.navbar h1{
+    font-size:25px;
+}
+.navbar nav a{
+    color:white;
+    text-decoration: none;
+    margin-right:30px;
+}
+.hero{
+    height:100vh;
+    position:relative;
+    background: url(https://images.unsplash.com/photo-1501004318641-b39e6451bec6);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    align-items:center;
+    padding:30px;
+}
+.overlay{
+    position:absolute;
+    inset:0;
+    background-color: rgb(0,0,0,0.5);
+}
+.leftcard{
+    margin-left:5%;
+    z-index:2;
+    position:absolute;
+    max-width:450px;
+    padding:20px;
+}
+.leftcard h1{
+   font-size:55px;
+   margin-bottom:10px;
+}
+
+.leftcard p{
+    font-size:20px;
+}
+
+.rightcard{
+    margin-left:70%;
+    z-index:2;
+    transform: translateY(-30%);
+}
+.buttons{
+    font-size:15px;
+    padding:10px 15px;
+    margin:20px 0px;
+    border:none;
+    color:white;
+}
+#exp{
+    background-color: green;
+    
+}
+#demo{
+    margin-left:15px;
+    background:transparent;
+}
+.rightcard{
+    margin-left:75%;
+    background:rgb(225,225,225,0.1);
+    backdrop-filter :blur(60px);
+    border-radius:15px;
+    padding:15px 50px;
+} 
+.rightcard h1{
+    font-size:15px;
+    margin-bottom:3px;
+}
+.rightcard h2{
+    font-size:24px;
+}
+#buy{
+   margin:  10px 20px;
+   padding:5px 10px;
+   background-color: green;
+   border:none;
+   color:white;
+}
+#prods{
+    text-align: center;
+    background-color: darkgreen;
+    padding:30px;
+}
+#prods h2{
+    font-size:45px;
+    padding-bottom:30px;
+}
+.items img{
+    height:300px;
+    width:250px;
+    padding:20px;
+}
+.items{
+    display:flex;
+    margin-left:24%;
+}
+#prods p{
+    padding:30px;
+}
+#contact{
+    height:200px;
+    text-align:center;
+    padding:30px;
+}
