@@ -121,7 +121,15 @@ body{
     padding:30px;
 }
 @media(max-width : 1000px){
-    body{
-        background-color: red;
+    .hero{
+        flex-direction:column;
+        text-align-centre;
+    }
+    .rightcard{
+        position:static;
+        margin-top:20px;
+    }
+    .items{
+        flex-direction:column;
     }
 }
