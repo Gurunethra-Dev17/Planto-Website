@@ -123,13 +123,14 @@ body{
 @media(max-width : 1000px){
     .hero{
         flex-direction:column;
-        text-align-centre;
+        text:align-centre;
     }
     .rightcard{
         position:static;
         margin-top:20px;
     }
     .items{
+        display:flex;
         flex-direction:column;
     }
 }
